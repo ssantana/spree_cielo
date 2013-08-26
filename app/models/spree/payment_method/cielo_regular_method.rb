@@ -18,7 +18,7 @@ module Spree
       true
     end
     
-    def provider_class
+    def payment_source_class
       CieloRegularPayment
     end
   end
