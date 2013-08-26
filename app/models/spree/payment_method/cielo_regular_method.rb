@@ -13,6 +13,10 @@ module Spree
     # def process_before_confirm?
     #   true
     # end
+
+    def auto_capture?
+      true
+    end
     
     def payment_source_class
       CieloRegularPayment
