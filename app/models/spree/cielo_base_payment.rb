@@ -8,7 +8,7 @@ module Spree
       delegate :order, :to => :payment
     end
 
-    def process!(payment)
+    def authorize(payment)
       payment.pend
       redirect_url = "#{Spree::Config[:site_url]}/cielo/orders/#{order.number}/payments/#{payment.id}/verify"
 
