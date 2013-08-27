@@ -13,7 +13,7 @@ Spree::CheckoutController.class_eval do
       end
 
       if @order.completed? and @order.payments.last.payment_method.class == Spree::PaymentMethod::CieloRegularMethod && !@order.paid?
-        redirect_to @order.payment.source.authentication_url
+        redirect_to @order.payments.last.source.authentication_url
       elsif @order.completed?
         session[:order_id] = nil
         flash.notice = Spree.t(:order_processed_successfully)
