@@ -2,8 +2,8 @@ pt-BR:
   not_supported: Não suportado
   verify: Verificar
   order_not_found: Pedido não encontrado
-  payment_not_identified: Pagamento ainda não identificado
-  order_processed_successfully: Pagamento realizado com sucesso.
+  payment_not_identified: Pagamento não autorizado
+  order_processed_successfully: Pagamento realizado com sucesso
   time:
     formats:
       cielo: "%Y-%m-%dT%H:%M:%S"
