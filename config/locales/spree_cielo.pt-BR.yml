@@ -3,6 +3,7 @@ pt-BR:
   verify: Verificar
   order_not_found: Pedido não encontrado
   payment_not_identified: Pagamento ainda não identificado
+  order_processed_successfully: Pagamento realizado com sucesso.
   time:
     formats:
       cielo: "%Y-%m-%dT%H:%M:%S"
