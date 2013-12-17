@@ -3,7 +3,7 @@ pt-BR:
   verify: Verificar
   order_not_found: Pedido não encontrado
   payment_not_identified: Pagamento não autorizado
-  order_processed_successfully: Pagamento realizado com sucesso
+  order_processed_successfully: Pagamento realizado com sucesso. Em instantes você receberá a confirmação do pedido por email. Caso não receba entre em contato com mkt@aliancacenter.com.br
   time:
     formats:
       cielo: "%Y-%m-%dT%H:%M:%S"
